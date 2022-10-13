@@ -1,0 +1,8 @@
+name: 'Start testing this'
+run-name: 'This is a run name'
+on: [push]
+jobs:
+  This-The-First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: dotnet --version
